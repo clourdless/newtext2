@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="选择画笔颜色"
+        >
+        <menu>
+            <group android:checkableBehavior="single">"
+                <item android:id="@+id/red" android:title="红色" />
+                <item android:id="@+id/blue" android:title="蓝色" />
+                <item android:id="@+id/green" android:title="绿色" />
+                <item android:id="@+id/yellow" android:title="黄色" />
+                <item android:id="@+id/black" android:title="黑色" />      
+            </group>
+            >
+        </menu>
+        
+    </item>
+    <item
+        android:title="选择画笔宽度"
+        >
+        <menu>
+            <group>
+                <item android:id="@+id/width1" android:title="1像素" />
+                <item android:id="@+id/width2" android:title="2像素" />
+                <item android:id="@+id/width5" android:title="5像素" />
+                <item android:id="@+id/width8" android:title="8像素" />
+                <item android:id="@+id/width10" android:title="10像素" />
+            </group>
+        </menu>
+        
+    </item>
+    <item
+        android:title="清除视图"
+        android:showAsAction="always"
+        android:id="@+id/clear1"
+        android:actionViewClass="android.widget.SearchView"
+        >
+        
+    </item>
+    <item
+        android:title="保存视图"
+        android:showAsAction="always"
+        android:id="@+id/save1"
+        android:actionLayout="@layout/clock"
+        >
+        
+    </item>
+
+</menu>
